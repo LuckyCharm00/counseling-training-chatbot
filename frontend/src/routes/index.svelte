@@ -1,4 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>
-  Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-</p>
+<script>
+  import {Router, Route} from 'svelte-routing';
+  import LoginPage from './LoginPage.svelte';
+
+</script>
+
+<Router>
+  <Route path="/"> <LoginPage/> </Route>
+</Router>
