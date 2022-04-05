@@ -23,7 +23,10 @@
         <div style="padding-bottom: 50px; padding-top: 100px">
           <img style='width:400px' src="images/turning_point_logo.png" alt='Error in displaying Logo'/>
         </div>
-        
+
+        <div style="padding-bottom: 40px">
+          <Label style="font-size: 22px">Login to Your Account </Label>
+          </div>
         <div style="padding-bottom: 25px">
           <Textfield
             class="shaped-outlined"

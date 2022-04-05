@@ -27,7 +27,7 @@
           <img style='width:400px' src="images/turning_point_logo.png" alt='Error in displaying Logo'/>
         </div>
         <div style="padding-bottom: 20px">
-        <Label style="font-size: 22px">Sign Up Page</Label>
+        <Label style="font-size: 22px">Sign Up as Trainee Counsellor</Label>
         </div>
         <div style="padding-bottom: 25px">
           <Textfield
@@ -85,8 +85,11 @@
           >
           </Textfield>
         </div>
-        <Button on:click={() => goto("/HomePage")} variant="raised" style="display:block">
+        <Button on:click={() => goto("/HomePage")} variant="raised">
           <Label>GET STARTED</Label>
+        </Button>
+        <Button on:click={() => console.log('Admin signup page')} variant="raised">
+          <Label>Signup as Administrator</Label>
         </Button>
       </div>
     </Cell>
